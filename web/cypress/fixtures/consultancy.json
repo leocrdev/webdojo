@@ -1,0 +1,40 @@
+{
+  "personal": {
+    "name": "Leonardo Cunha Ribeiro",
+    "email": "teste@teste.com",
+    "phone": "62985858585",
+    "consultancyType": "Individual",
+    "personType": "cpf",
+    "document": "78569885798",
+    "discoveryChannels": [
+      "Udemy",
+      "LinkedIn",
+      "YouTube"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "description": "Gostaria de uma consultoria para melhorar minhas habilidades em Cypress e automação de testes.",
+    "tech": [
+      "Cypress"
+    ],
+    "terms": true
+  },
+  "company": {
+    "name": "LCR DEV",
+    "email": "teste@teste.com",
+    "phone": "62985858585",
+    "consultancyType": "In Company",
+    "personType": "cnpj",
+    "document": "77728250000177",
+    "discoveryChannels": [
+      "Udemy",
+      "LinkedIn",
+      "YouTube"
+    ],
+    "file": "./cypress/fixtures/document.pdf",
+    "description": "Gostaria de uma consultoria para melhorar minhas habilidades em Cypress e automação de testes.",
+    "tech": [
+      "Cypress"
+    ],
+    "terms": true
+  }
+}
