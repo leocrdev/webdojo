@@ -1,0 +1,24 @@
+meta {
+  name: Delete a user copy
+  type: http
+  seq: 6
+}
+
+delete {
+  url: http://localhost:3333/api/users/098b771f-8b78-4600-ac9d-a7c34352dd9a
+  body: none
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "SpiderMan",
+    "email": "parker@spiderman.com",
+    "password": "abc123"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

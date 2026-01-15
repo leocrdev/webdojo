@@ -32,6 +32,14 @@ Cypress.Commands.add('start', () => {
     cy.viewport(1440, 900)
     cy.visit('/')
 })
+
+Cypress.Commands.add('goToSignup', () => {
+    cy.start()
+    cy.get('a[href="/register"]').click()
+        cy.contains('h2', 'Crie sua conta')
+        .should('be.visible')
+    })
+
 Cypress.Commands.add('submitLoginForm', (email, senha) => {
     cy.get('#email').type(email)
     cy.get('#password').type(senha)

@@ -1,0 +1,24 @@
+meta {
+  name: Update a user
+  type: http
+  seq: 5
+}
+
+put {
+  url: http://localhost:3333/api/users/b6193dd1-c529-4303-84f2-7b7dc484a9fb
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "SpiderMan",
+    "email": "parker@spiderman.com",
+    "password": "abc123"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
